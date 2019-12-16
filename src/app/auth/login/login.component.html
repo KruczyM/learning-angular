@@ -1,0 +1,12 @@
+<form (ngSubmit)="login(formDate)" #formDate = "ngForm">
+  <div>
+    <label>E-mail</label>
+    <input ngModel type="email" name="email" required>
+
+    <label>Hasło</label>
+    <input ngModel type="password" name="password" required>
+    <button type="submit" [disabled]="formDate.invalid">Zaloguj</button>
+    <button type="button" [disabled]="formDate.invalid">Rejestracja</button>
+  </div>
+
+</form>
