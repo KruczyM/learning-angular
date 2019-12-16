@@ -21,7 +21,7 @@ export class TodoTaskComponent implements OnInit {
   emitRemove = new EventEmitter<string>();
   */
 
-  private tasksList: Array<Task> = [];
+  tasksList: Array<Task> = [];
 
   constructor(private log: LogService, private taskService: TasksService) {
     this.taskService.getTaskListObs().subscribe((tasks: Array<Task>) => {

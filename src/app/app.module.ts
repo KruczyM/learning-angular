@@ -7,9 +7,9 @@ import { AngularFireModule} from '@angular/fire'
 import { AngularFireAuthModule} from '@angular/fire/auth';
 
 import { AppComponent } from './app.component';
-import { AddComponent} from './funkcjonalności/add/add.component';
-import { TodoTaskComponent} from './funkcjonalności/todo-task/todo-task.component';
-import { DoneTaskComponent} from './funkcjonalności/done-task/done-task.component';
+import { AddComponent} from './funkcjonalnosci/add/add.component';
+import { TodoTaskComponent} from './funkcjonalnosci/todo-task/todo-task.component';
+import { DoneTaskComponent} from './funkcjonalnosci/done-task/done-task.component';
 
 import { HttpService } from './seriwsy/http.service';
 import {LogService} from './seriwsy/log.service';

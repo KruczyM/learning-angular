@@ -12,7 +12,7 @@ export class AddComponent implements OnInit {
 
   addForm: FormGroup;
 
-  private repeatString: string = '';
+  repeatString: string = '';
 
   constructor(private taskService : TasksService) { }
 
